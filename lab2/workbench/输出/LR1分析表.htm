@@ -1,0 +1,1325 @@
+<html>
+<head>
+<title>LR1分析表</title>
+</head>
+<body>
+<p align="center">LR1分析表</p>
+<table border="1">
+<tr>
+<td rowspan="2" nowrap><p align="center">状态</p></td>
+<td colspan="12" nowrap><p align="center">ACTION</p></td>
+<td colspan="6" nowrap><p align="center">GOTO</p></td>
+</tr>
+<tr>
+<td nowrap>id</td>
+<td nowrap>(</td>
+<td nowrap>)</td>
+<td nowrap>+</td>
+<td nowrap>-</td>
+<td nowrap>*</td>
+<td nowrap>=</td>
+<td nowrap>int</td>
+<td nowrap>return</td>
+<td nowrap>IntConst</td>
+<td nowrap>Semicolon</td>
+<td nowrap>$</td>
+<td nowrap>E</td>
+<td nowrap>S_list</td>
+<td nowrap>S</td>
+<td nowrap>A</td>
+<td nowrap>B</td>
+<td nowrap>D</td>
+</tr>
+<tr>
+<td nowrap>0</td>
+<td nowrap>shift&nbsp;4</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;5</td>
+<td nowrap>shift&nbsp;6</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>1</td>
+<td nowrap>2</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>3</td>
+</tr>
+<tr>
+<td nowrap>1</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>accept</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>2</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;7</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>3</td>
+<td nowrap>shift&nbsp;8</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>4</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;9</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>5</td>
+<td nowrap>reduce&nbsp;D&nbsp;->&nbsp;int</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>6</td>
+<td nowrap>shift&nbsp;13</td>
+<td nowrap>shift&nbsp;14</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;15</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>10</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>11</td>
+<td nowrap>12</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>7</td>
+<td nowrap>shift&nbsp;4</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;5</td>
+<td nowrap>shift&nbsp;6</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;S_list&nbsp;->&nbsp;S&nbsp;Semicolon</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>16</td>
+<td nowrap>2</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>3</td>
+</tr>
+<tr>
+<td nowrap>8</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;S&nbsp;->&nbsp;D&nbsp;id</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>9</td>
+<td nowrap>shift&nbsp;13</td>
+<td nowrap>shift&nbsp;14</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;15</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>17</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>11</td>
+<td nowrap>12</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>10</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;18</td>
+<td nowrap>shift&nbsp;19</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;S&nbsp;->&nbsp;return&nbsp;E</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>11</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;A</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;A</td>
+<td nowrap>shift&nbsp;20</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;A</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>12</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;B</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;B</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;B</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;B</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>13</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;id</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;id</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;id</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;id</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>14</td>
+<td nowrap>shift&nbsp;24</td>
+<td nowrap>shift&nbsp;25</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;26</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>21</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>22</td>
+<td nowrap>23</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>15</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;IntConst</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;IntConst</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;IntConst</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;IntConst</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>16</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;S_list&nbsp;->&nbsp;S&nbsp;Semicolon&nbsp;S_list</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>17</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;18</td>
+<td nowrap>shift&nbsp;19</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;S&nbsp;->&nbsp;id&nbsp;=&nbsp;E</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>18</td>
+<td nowrap>shift&nbsp;13</td>
+<td nowrap>shift&nbsp;14</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;15</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>27</td>
+<td nowrap>12</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>19</td>
+<td nowrap>shift&nbsp;13</td>
+<td nowrap>shift&nbsp;14</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;15</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>28</td>
+<td nowrap>12</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>20</td>
+<td nowrap>shift&nbsp;13</td>
+<td nowrap>shift&nbsp;14</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;15</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>29</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>21</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;30</td>
+<td nowrap>shift&nbsp;31</td>
+<td nowrap>shift&nbsp;32</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>22</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;A</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;A</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;A</td>
+<td nowrap>shift&nbsp;33</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>23</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;B</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;B</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;B</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;B</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>24</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;id</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;id</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;id</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;id</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>25</td>
+<td nowrap>shift&nbsp;24</td>
+<td nowrap>shift&nbsp;25</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;26</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>34</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>22</td>
+<td nowrap>23</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>26</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;IntConst</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;IntConst</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;IntConst</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;IntConst</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>27</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;+&nbsp;A</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;+&nbsp;A</td>
+<td nowrap>shift&nbsp;20</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;+&nbsp;A</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>28</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;-&nbsp;A</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;-&nbsp;A</td>
+<td nowrap>shift&nbsp;20</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;-&nbsp;A</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>29</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;A&nbsp;*&nbsp;B</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;A&nbsp;*&nbsp;B</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;A&nbsp;*&nbsp;B</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;A&nbsp;*&nbsp;B</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>30</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;(&nbsp;E&nbsp;)</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;(&nbsp;E&nbsp;)</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;(&nbsp;E&nbsp;)</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;(&nbsp;E&nbsp;)</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>31</td>
+<td nowrap>shift&nbsp;24</td>
+<td nowrap>shift&nbsp;25</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;26</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>35</td>
+<td nowrap>23</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>32</td>
+<td nowrap>shift&nbsp;24</td>
+<td nowrap>shift&nbsp;25</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;26</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>36</td>
+<td nowrap>23</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>33</td>
+<td nowrap>shift&nbsp;24</td>
+<td nowrap>shift&nbsp;25</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;26</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>37</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>34</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>shift&nbsp;38</td>
+<td nowrap>shift&nbsp;31</td>
+<td nowrap>shift&nbsp;32</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>35</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;+&nbsp;A</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;+&nbsp;A</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;+&nbsp;A</td>
+<td nowrap>shift&nbsp;33</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>36</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;-&nbsp;A</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;-&nbsp;A</td>
+<td nowrap>reduce&nbsp;E&nbsp;->&nbsp;E&nbsp;-&nbsp;A</td>
+<td nowrap>shift&nbsp;33</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>37</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;A&nbsp;*&nbsp;B</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;A&nbsp;*&nbsp;B</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;A&nbsp;*&nbsp;B</td>
+<td nowrap>reduce&nbsp;A&nbsp;->&nbsp;A&nbsp;*&nbsp;B</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>38</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;(&nbsp;E&nbsp;)</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;(&nbsp;E&nbsp;)</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;(&nbsp;E&nbsp;)</td>
+<td nowrap>reduce&nbsp;B&nbsp;->&nbsp;(&nbsp;E&nbsp;)</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+<td nowrap>&nbsp;</td>
+</tr>
+</table>
+<br>
+<br>
+项目集规范族：<br>
+<br>
+I0:<br>
+P&nbsp;->&nbsp;.&nbsp;S_list&nbsp;,&nbsp;$<br>
+S_list&nbsp;->&nbsp;.&nbsp;S&nbsp;Semicolon&nbsp;S_list&nbsp;,&nbsp;$<br>
+S_list&nbsp;->&nbsp;.&nbsp;S&nbsp;Semicolon&nbsp;,&nbsp;$<br>
+S&nbsp;->&nbsp;.&nbsp;D&nbsp;id&nbsp;,&nbsp;Semicolon<br>
+S&nbsp;->&nbsp;.&nbsp;id&nbsp;=&nbsp;E&nbsp;,&nbsp;Semicolon<br>
+S&nbsp;->&nbsp;.&nbsp;return&nbsp;E&nbsp;,&nbsp;Semicolon<br>
+D&nbsp;->&nbsp;.&nbsp;int&nbsp;,&nbsp;id<br>
+<br>
+I1:<br>
+P&nbsp;->&nbsp;S_list&nbsp;.&nbsp;,&nbsp;$<br>
+<br>
+I2:<br>
+S_list&nbsp;->&nbsp;S&nbsp;.&nbsp;Semicolon&nbsp;S_list&nbsp;,&nbsp;$<br>
+S_list&nbsp;->&nbsp;S&nbsp;.&nbsp;Semicolon&nbsp;,&nbsp;$<br>
+<br>
+I3:<br>
+S&nbsp;->&nbsp;D&nbsp;.&nbsp;id&nbsp;,&nbsp;Semicolon<br>
+<br>
+I4:<br>
+S&nbsp;->&nbsp;id&nbsp;.&nbsp;=&nbsp;E&nbsp;,&nbsp;Semicolon<br>
+<br>
+I5:<br>
+D&nbsp;->&nbsp;int&nbsp;.&nbsp;,&nbsp;id<br>
+<br>
+I6:<br>
+S&nbsp;->&nbsp;return&nbsp;.&nbsp;E&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;*<br>
+<br>
+I7:<br>
+S_list&nbsp;->&nbsp;S&nbsp;Semicolon&nbsp;.&nbsp;S_list&nbsp;,&nbsp;$<br>
+S_list&nbsp;->&nbsp;S&nbsp;Semicolon&nbsp;.&nbsp;,&nbsp;$<br>
+S_list&nbsp;->&nbsp;.&nbsp;S&nbsp;Semicolon&nbsp;S_list&nbsp;,&nbsp;$<br>
+S_list&nbsp;->&nbsp;.&nbsp;S&nbsp;Semicolon&nbsp;,&nbsp;$<br>
+S&nbsp;->&nbsp;.&nbsp;D&nbsp;id&nbsp;,&nbsp;Semicolon<br>
+S&nbsp;->&nbsp;.&nbsp;id&nbsp;=&nbsp;E&nbsp;,&nbsp;Semicolon<br>
+S&nbsp;->&nbsp;.&nbsp;return&nbsp;E&nbsp;,&nbsp;Semicolon<br>
+D&nbsp;->&nbsp;.&nbsp;int&nbsp;,&nbsp;id<br>
+<br>
+I8:<br>
+S&nbsp;->&nbsp;D&nbsp;id&nbsp;.&nbsp;,&nbsp;Semicolon<br>
+<br>
+I9:<br>
+S&nbsp;->&nbsp;id&nbsp;=&nbsp;.&nbsp;E&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;*<br>
+<br>
+I10:<br>
+S&nbsp;->&nbsp;return&nbsp;E&nbsp;.&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;-<br>
+<br>
+I11:<br>
+E&nbsp;->&nbsp;A&nbsp;.&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;A&nbsp;.&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;A&nbsp;.&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+<br>
+I12:<br>
+A&nbsp;->&nbsp;B&nbsp;.&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;B&nbsp;.&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;B&nbsp;.&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;B&nbsp;.&nbsp;,&nbsp;*<br>
+<br>
+I13:<br>
+B&nbsp;->&nbsp;id&nbsp;.&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;id&nbsp;.&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;id&nbsp;.&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;id&nbsp;.&nbsp;,&nbsp;*<br>
+<br>
+I14:<br>
+B&nbsp;->&nbsp;(&nbsp;.&nbsp;E&nbsp;)&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;(&nbsp;.&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;(&nbsp;.&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;(&nbsp;.&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;*<br>
+<br>
+I15:<br>
+B&nbsp;->&nbsp;IntConst&nbsp;.&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;IntConst&nbsp;.&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;IntConst&nbsp;.&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;IntConst&nbsp;.&nbsp;,&nbsp;*<br>
+<br>
+I16:<br>
+S_list&nbsp;->&nbsp;S&nbsp;Semicolon&nbsp;S_list&nbsp;.&nbsp;,&nbsp;$<br>
+<br>
+I17:<br>
+S&nbsp;->&nbsp;id&nbsp;=&nbsp;E&nbsp;.&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;-<br>
+<br>
+I18:<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;.&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;.&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;.&nbsp;A&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;*<br>
+<br>
+I19:<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;.&nbsp;A&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;.&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;.&nbsp;A&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;*<br>
+<br>
+I20:<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;.&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;.&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;.&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;.&nbsp;B&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;*<br>
+<br>
+I21:<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;.&nbsp;)&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;.&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;.&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;.&nbsp;)&nbsp;,&nbsp;*<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;-<br>
+<br>
+I22:<br>
+E&nbsp;->&nbsp;A&nbsp;.&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;A&nbsp;.&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;A&nbsp;.&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+<br>
+I23:<br>
+A&nbsp;->&nbsp;B&nbsp;.&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;B&nbsp;.&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;B&nbsp;.&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;B&nbsp;.&nbsp;,&nbsp;*<br>
+<br>
+I24:<br>
+B&nbsp;->&nbsp;id&nbsp;.&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;id&nbsp;.&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;id&nbsp;.&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;id&nbsp;.&nbsp;,&nbsp;*<br>
+<br>
+I25:<br>
+B&nbsp;->&nbsp;(&nbsp;.&nbsp;E&nbsp;)&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;(&nbsp;.&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;(&nbsp;.&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;(&nbsp;.&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;+&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;.&nbsp;E&nbsp;-&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;.&nbsp;A&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;*<br>
+<br>
+I26:<br>
+B&nbsp;->&nbsp;IntConst&nbsp;.&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;IntConst&nbsp;.&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;IntConst&nbsp;.&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;IntConst&nbsp;.&nbsp;,&nbsp;*<br>
+<br>
+I27:<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;A&nbsp;.&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;A&nbsp;.&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;A&nbsp;.&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+<br>
+I28:<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;A&nbsp;.&nbsp;,&nbsp;Semicolon<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;A&nbsp;.&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;A&nbsp;.&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+<br>
+I29:<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;B&nbsp;.&nbsp;,&nbsp;Semicolon<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;B&nbsp;.&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;B&nbsp;.&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;B&nbsp;.&nbsp;,&nbsp;*<br>
+<br>
+I30:<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;)&nbsp;.&nbsp;,&nbsp;Semicolon<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;)&nbsp;.&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;)&nbsp;.&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;)&nbsp;.&nbsp;,&nbsp;*<br>
+<br>
+I31:<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;.&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;.&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;.&nbsp;A&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;*<br>
+<br>
+I32:<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;.&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;.&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;.&nbsp;A&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;.&nbsp;A&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+A&nbsp;->&nbsp;.&nbsp;B&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;*<br>
+<br>
+I33:<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;.&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;.&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;.&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;.&nbsp;B&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;.&nbsp;(&nbsp;E&nbsp;)&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;id&nbsp;,&nbsp;*<br>
+B&nbsp;->&nbsp;.&nbsp;IntConst&nbsp;,&nbsp;*<br>
+<br>
+I34:<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;.&nbsp;)&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;.&nbsp;)&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;.&nbsp;)&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;.&nbsp;)&nbsp;,&nbsp;*<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;+&nbsp;A&nbsp;,&nbsp;-<br>
+E&nbsp;->&nbsp;E&nbsp;.&nbsp;-&nbsp;A&nbsp;,&nbsp;-<br>
+<br>
+I35:<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;A&nbsp;.&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;A&nbsp;.&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;+&nbsp;A&nbsp;.&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+<br>
+I36:<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;A&nbsp;.&nbsp;,&nbsp;)<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;A&nbsp;.&nbsp;,&nbsp;+<br>
+E&nbsp;->&nbsp;E&nbsp;-&nbsp;A&nbsp;.&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;.&nbsp;*&nbsp;B&nbsp;,&nbsp;*<br>
+<br>
+I37:<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;B&nbsp;.&nbsp;,&nbsp;)<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;B&nbsp;.&nbsp;,&nbsp;+<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;B&nbsp;.&nbsp;,&nbsp;-<br>
+A&nbsp;->&nbsp;A&nbsp;*&nbsp;B&nbsp;.&nbsp;,&nbsp;*<br>
+<br>
+I38:<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;)&nbsp;.&nbsp;,&nbsp;)<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;)&nbsp;.&nbsp;,&nbsp;+<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;)&nbsp;.&nbsp;,&nbsp;-<br>
+B&nbsp;->&nbsp;(&nbsp;E&nbsp;)&nbsp;.&nbsp;,&nbsp;*<br>
+<br>
+</body>
+</html>
